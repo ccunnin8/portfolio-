@@ -28,7 +28,7 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
+  position:fixed;
   text-align: center;
 }
 .nav {
@@ -41,16 +41,17 @@ a:hover {
 }
 
 .nav .name {
-    color:white;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 1.25em;
+    color: white;
+    display:block;
+    margin-right: auto;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
+  display:inline;
+  float:right;
 }
 .nav a:hover {
   color: white
